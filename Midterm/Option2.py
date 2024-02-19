@@ -80,7 +80,7 @@ choices = [{"Shape":"Square"},{"Shape":"Circle"},{"Shape":"Triangle"},
 
 old_rewarding = [None, None, None]
 for index, row in humanData.iterrows():
-    if(index > 1000): continue 
+    #if(index > 1000): continue 
 
     if(row['reward'] is None): continue 
     if(math.isnan(row['numSelectedFeatures'])): continue 

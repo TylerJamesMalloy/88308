@@ -9,6 +9,7 @@ from pyibl import Agent
 
 from sklearn.metrics import mean_squared_error
 
+# https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1010699
 # Load human data: Midterm\paperCode\data\data_all_wClickInfo.csv
 humanData = pd.read_pickle("./participantData.pkl")
 
